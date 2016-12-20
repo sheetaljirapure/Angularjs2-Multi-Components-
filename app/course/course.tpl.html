@@ -1,0 +1,16 @@
+<h1>{{title}}</h1>
+
+<table>
+    <tr>
+        <th>Id</th>
+        <th>name</th>
+        <th>cost</th>
+        <th>duration</th>
+    </tr>
+    <tr *ngFor="#read of courses" >
+        <td>{{read.id}}</td>
+        <td>{{read.name}}</td>
+        <td>{{read.cost}}</td>
+        <td>{{read.duration}}</td>
+    </tr>
+</table>
